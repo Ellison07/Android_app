@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <Button
+        android:id="@+id/activityBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="Clear All Saved History"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="518dp"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/activityBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="View Total Interest And Principal"
+        android:textSize="14sp" />
+</LinearLayout>
+

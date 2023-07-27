@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Principal Amount:"
+        android:textSize="14sp" />
+    <EditText
+        android:id="@+id/principalEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter Principal Amount"
+        android:textSize="14sp"
+        android:padding="14dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Interest Rate (in %):"
+        android:textSize="14sp"
+        android:paddingTop="14dp"/>
+    <EditText
+        android:id="@+id/interestRateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter Interest Rate (in %)"
+        android:textSize="14sp"
+        android:padding="14dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Number of Months:"
+        android:textSize="14sp"
+        android:paddingTop="14dp"/>
+    <EditText
+        android:id="@+id/monthsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter Number of Months"
+        android:textSize="14sp"
+        android:padding="14dp"/>
+    <TextView
+        android:text="Start Date (yyyy/MM/dd)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/start_date_input"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint= "Enter start date"
+        android:textSize="14sp"
+        android:padding="14dp"/>
+    <TextView
+        android:text="End Date (yyyy/MM/dd)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/end_date_input"
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter end date"
+        android:textSize="14sp"
+        android:padding="14dp"/>
+    <Button
+        android:id="@+id/calculateButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="14sp"
+        android:padding="14dp"/>
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:padding="14dp"/>
+    <Button
+        android:id="@+id/calculateButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate With Dates"
+        android:textSize="14sp"
+        android:padding="14dp"/>
+    <Button
+        android:id="@+id/dataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="View History "
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/btnData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:text="Total Interest and Principal"
+        android:textSize="14sp" />
+</LinearLayout>
+
